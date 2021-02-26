@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.controls{
+			display: inline;
+		}
+		.controls input{
+			width: 30px;
+		}
+
+		.controls button{
+			float: right;
+			margin-left: 10px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+		    text-transform: uppercase;
+		    text-align: center;
+		    color: white;
+		    border-radius: 3px;
+		    font-weight: 700;
+				font-family: Verdana;
+		    display: inline-block;
+		    text-decoration: none;
+		    border: 1px solid #d3dbe3;
+		    line-height: 1;
+		    padding: 3px 6px;
+		    cursor: pointer;
+		}
+		.controls button.start{
+			background-color: green;
+		}
+
+		.controls button.stop{
+			background-color: red;
+		}
+
+		.controls button.found{
+			background-color: blue;
+		}
+
+		.controls #message
+		{
+			margin-top: 18px;
+    		float: left;
+    		font-weight: bold;
+		}
+
+		hr{
+			width: 100%;
+			margin-top: 15px;
+		}
+
+		a{
+			color: blue;
+			padding: 0;
+			margin: 0;
+		}
+		p{
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+</head>
+<body style="width:225px; padding:10px;">
+	<div class="controls">
+		<span id="message"></span>
+		<button class="stop" id="stop">Stop</button>
+		<button class="start" id="start">Start</button>
+	</div>
+	<script src='popup.js'></script>
+</body>
+</html>
