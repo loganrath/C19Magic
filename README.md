@@ -1,6 +1,6 @@
 # C19Magic
 
-This is a Chrome Extension that will refresh the page and select an appointment if one exists.
+This is a Chrome Extension that will refresh the page every 10 seconds and select an appointment if one exists.
 
 This guide will show you how to unpack the addon: https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/
 
@@ -10,4 +10,4 @@ This guide will show you how to unpack the addon: https://webkul.com/blog/how-to
 2. Unpack the zip file and then follow the directions in the web link above.
 
 # No Promises
-This addon makes no promise to keep working. Good luck!
+This extension makes no promise to keep working. Good luck!
